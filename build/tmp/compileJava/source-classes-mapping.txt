@@ -2,6 +2,8 @@ com/my/springboot/config/auth/SessionUser.java
  com.my.springboot.config.auth.SessionUser
 com/my/springboot/web/dto/HelloResponseDto.java
  com.my.springboot.web.dto.HelloResponseDto
+com/my/springboot/config/auth/LoginUser.java
+ com.my.springboot.config.auth.LoginUser
 com/my/springboot/domain/user/Role.java
  com.my.springboot.domain.user.Role
 com/my/springboot/web/HelloController.java
@@ -25,8 +27,8 @@ com/my/springboot/domain/posts/Posts.java
  com.my.springboot.domain.posts.Posts$PostsBuilder
 com/my/springboot/web/dto/PostsListResponseDto.java
  com.my.springboot.web.dto.PostsListResponseDto
-com/my/springboot/domain/posts/PostsRepository.java
- com.my.springboot.domain.posts.PostsRepository
+com/my/springboot/web/IndexController.java
+ com.my.springboot.web.IndexController
 com/my/springboot/web/dto/PostsUpdateRequestDto.java
  com.my.springboot.web.dto.PostsUpdateRequestDto
  com.my.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
@@ -37,15 +39,13 @@ com/my/springboot/domain/BaseTimeEntity.java
 com/my/springboot/config/auth/dto/OAuthAttributes.java
  com.my.springboot.config.auth.dto.OAuthAttributes
  com.my.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
-com/my/springboot/Application.java
- com.my.springboot.Application
-com/my/springboot/config/auth/SecurityConfig.java
- com.my.springboot.config.auth.SecurityConfig
-com/my/springboot/web/IndexController.java
- com.my.springboot.web.IndexController
-com/my/springboot/config/auth/LoginUser.java
- com.my.springboot.config.auth.LoginUser
 com/my/springboot/config/auth/LoginUserArgumentResolver.java
  com.my.springboot.config.auth.LoginUserArgumentResolver
 com/my/springboot/config/WebConfig.java
  com.my.springboot.config.WebConfig
+com/my/springboot/Application.java
+ com.my.springboot.Application
+com/my/springboot/config/auth/SecurityConfig.java
+ com.my.springboot.config.auth.SecurityConfig
+com/my/springboot/domain/posts/PostsRepository.java
+ com.my.springboot.domain.posts.PostsRepository
