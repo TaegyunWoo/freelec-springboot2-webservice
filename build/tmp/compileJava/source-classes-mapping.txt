@@ -17,8 +17,8 @@ com/my/springboot/domain/posts/PostsService.java
 com/my/springboot/domain/user/User.java
  com.my.springboot.domain.user.User
  com.my.springboot.domain.user.User$UserBuilder
-com/my/springboot/config/auth/CustomOAuth2UserService.java
- com.my.springboot.config.auth.CustomOAuth2UserService
+com/my/springboot/config/auth/SecurityConfig.java
+ com.my.springboot.config.auth.SecurityConfig
 com/my/springboot/web/dto/PostsSaveRequestDto.java
  com.my.springboot.web.dto.PostsSaveRequestDto
  com.my.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
@@ -36,16 +36,18 @@ com/my/springboot/web/PostsApiController.java
  com.my.springboot.web.PostsApiController
 com/my/springboot/domain/BaseTimeEntity.java
  com.my.springboot.domain.BaseTimeEntity
-com/my/springboot/config/auth/dto/OAuthAttributes.java
- com.my.springboot.config.auth.dto.OAuthAttributes
- com.my.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/my/springboot/domain/posts/PostsRepository.java
+ com.my.springboot.domain.posts.PostsRepository
 com/my/springboot/config/auth/LoginUserArgumentResolver.java
  com.my.springboot.config.auth.LoginUserArgumentResolver
 com/my/springboot/config/WebConfig.java
  com.my.springboot.config.WebConfig
+com/my/springboot/config/auth/CustomOAuth2UserService.java
+ com.my.springboot.config.auth.CustomOAuth2UserService
+com/my/springboot/config/auth/dto/OAuthAttributes.java
+ com.my.springboot.config.auth.dto.OAuthAttributes
+ com.my.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/my/springboot/Application.java
  com.my.springboot.Application
-com/my/springboot/config/auth/SecurityConfig.java
- com.my.springboot.config.auth.SecurityConfig
-com/my/springboot/domain/posts/PostsRepository.java
- com.my.springboot.domain.posts.PostsRepository
+com/my/springboot/config/JpaConfig.java
+ com.my.springboot.config.JpaConfig
