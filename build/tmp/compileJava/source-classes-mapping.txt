@@ -17,8 +17,8 @@ com/my/springboot/domain/posts/PostsService.java
 com/my/springboot/domain/user/User.java
  com.my.springboot.domain.user.User
  com.my.springboot.domain.user.User$UserBuilder
-com/my/springboot/config/auth/SecurityConfig.java
- com.my.springboot.config.auth.SecurityConfig
+com/my/springboot/config/JpaConfig.java
+ com.my.springboot.config.JpaConfig
 com/my/springboot/web/dto/PostsSaveRequestDto.java
  com.my.springboot.web.dto.PostsSaveRequestDto
  com.my.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
@@ -49,5 +49,5 @@ com/my/springboot/config/auth/dto/OAuthAttributes.java
  com.my.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/my/springboot/Application.java
  com.my.springboot.Application
-com/my/springboot/config/JpaConfig.java
- com.my.springboot.config.JpaConfig
+com/my/springboot/config/auth/SecurityConfig.java
+ com.my.springboot.config.auth.SecurityConfig
