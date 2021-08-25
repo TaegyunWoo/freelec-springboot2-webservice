@@ -12,8 +12,8 @@ permissions:
 hooks:
   AfterInstall:
     - location: stop.sh # 엔진엑스와 연결되지 않은 스프링 부트 종료
-        timeout: 60
-        runas: ec2-user
+      timeout: 60
+      runas: ec2-user
   ApplicationStart:
     - location: start.sh # 엔진엑스와 연결되지 않은 Port 번호로 새버전의 스프링 부트 시작
       timeout: 60
