@@ -6,5 +6,9 @@ com/my/springboot/domain/posts/PostsRepositoryTest.java
  com.my.springboot.domain.posts.PostsRepositoryTest
 com/my/springboot/web/PostsApiControllerTest.java
  com.my.springboot.web.PostsApiControllerTest
+com/my/springboot/web/ProfileControllerUnitTest.java
+ com.my.springboot.web.ProfileControllerUnitTest
+com/my/springboot/web/ProfileControllerTest.java
+ com.my.springboot.web.ProfileControllerTest
 com/my/springboot/web/HelloControllerTest.java
  com.my.springboot.web.HelloControllerTest
